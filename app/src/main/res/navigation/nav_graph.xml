@@ -2,11 +2,11 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/ListFragment">
+    app:startDestination="@+id/ListFragment">
 
     <fragment
         android:id = "@+id/ListFragment"
-        android:name="com.formacion.androidavanzado.list.ListFragment"
+        android:name="com.formacion.androidavanzado.presentation.list.HeroListFragment"
         android:label="ListFragment" />
 
 </navigation>
